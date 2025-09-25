@@ -1,0 +1,6 @@
+== Unannotated directory
+
+This directory contains no ELF annotations.
+
+Please refer to the official ISO documentation for details on the
+data models contained in this directory.
