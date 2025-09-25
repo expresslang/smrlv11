@@ -1,0 +1,103 @@
+= SMRL v11 EXPRESS schemas, annotated by ELF
+
+This repository contains EXPRESS schemas imported from the official ISO website:
+
+* https://standards.iso.org/iso/10303/smrl/v11/tech/smrlv11.zip
+
+WARNING: ISO expressly permits use, modification and redistribution of these
+schemas. See <<copyright-and-license>> for details.
+
+== The STEP Modules and Resources Library (SMRL)
+
+The STEP Modules and Resources Library (SMRL) is a library of EXPRESS schemas
+that define common data structures and resources for use in STEP application
+protocols (APs) and other EXPRESS-based data models. The SMRL is maintained by
+ISO/TC 184/SC 4.
+
+
+== ELF annotations
+
+SMRL schemas provided by ISO are not accompanied by any documentation, making
+them difficult to understand and use. The official documentation is available
+for https://www.iso.org/publication/PUB100485.html[purchase from ISO] as SMRL
+v11, which makes it hard for users to access.
+
+For the benefit of the EXPRESS community, the EXPRESS Language Foundation (ELF)
+has annotated these raw schemas with comments and cross-references to make them
+easier to understand and use. ELF annotations are added using the Annotated
+EXPRESS mechanism in the EXPRESS files
+(https://www.expresslang.org/docs/documents/annotated-express/document.html[defined by ELF]),
+and are licensed under a permissive open source license.
+
+
+== Disclaimer
+
+ELF provides these annotated schemas on a "best effort" basis and makes no claim
+on their correctness or completeness. Some of the ELF annotations are generated
+using automated tools and may contain errors or inaccuracies.
+
+Users should refer to the official ISO SMRL documentation for authoritative
+information.
+
+
+[[copyright-and-license]]
+== Copyright and license
+
+All EXPRESS schemas distributed in this repository are subject to the following
+license (see the link:LICENSE[] file for details):
+
+[quote]
+____
+Copyright ISO 2021  All rights reserved
+Permission is hereby granted, free of charge in perpetuity, to any person
+obtaining a copy of the Schema, to use, copy, modify, merge and distribute free
+of charge, copies of the Schema for the purposes of developing, implementing,
+installing and using software based on the Schema, and to permit persons to whom
+the Schema is furnished to do so, subject to the following conditions:
+
+THE SCHEMA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SCHEMA OR THE USE OR OTHER DEALINGS IN THE SCHEMA.
+
+In addition, any modified copy of the Schema shall include the following notice:
+
+THIS SCHEMA HAS BEEN MODIFIED FROM THE SCHEMA DEFINED IN
+ISO 10303-{part number}
+AND SHOULD NOT BE INTERPRETED AS COMPLYING WITH THAT STANDARD
+____
+
+All annotations added by ELF to the original EXPRESS schemas are subject to the
+following license:
+
+[quote]
+____
+Copyright EXPRESS Language Foundation (ELF). All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+____
